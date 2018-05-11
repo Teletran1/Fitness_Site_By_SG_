@@ -74,29 +74,53 @@ h.small {
 <br>
 <form action="/action_page.php">
   <center>First name</center>
+  <br>
   <center><input type="text" name="firstname" value=""></center>
   <br>
   <center>Last name<br></center>
+  <br>
   <center><input type="text" name="lastname" value=""></center>
   <br>
   <center>Email address</center>
+  <br>
   <center><input type="text" name="Emailaddress" value=""></center>
   <br>
-  <center>Confirmm email address</center>
+  <center>Confirm email address</center>
+  <br>
   <center><input type="text" name="Confirmemailaddress" value=""></center>
   <br>
   <center>Are you atleast 18 years old?</center>
-  <center><input type="text" name="Areyouatleast18yearsold?" value=""></center>
   <br>
-<center><form>
-  <input type="radio" name="Age inquiry" value="Yes"> Male<br>
-  <input type="radio" name="Age inquiry" value="No"> Female<br>  
-</form></center> 
+   <center><input type="radio" name="Age inquiry" value="">Yes<br></center>
+  <center><input type="radio" name="Age inquiry" value="">No<br></center>
+  <br>
+  <center>To better customize your experience please choose one of the following</center>
+  <br>
+  <center><input type="radio" name="Gender inquiry" value="">Male<br></center>
+  <center><input type="radio" name="Gender inquiry" value="">Female<br></center>  
+  <br>
+  <center>Have you used our facilities before?</center>
+  <br>
+  <center><input type="radio" name="Age inquiry" value="">Yes<br></center>
+  <center><input type="radio" name="Age inquiry" value="">No<br></center>
+  <br>
+  <center>How can we help you today?</center>
+  <br>
+  <center><select>
+  <option value="">Choose one</option>
+  <option value="">New Enrollment</option>
+  <option value="">Returning client</option>
+  <option value="">Payments</option>
+  <option value="">Classes</option>
+  <option value="">1 on 1</option>
+  <option value="">Something else</option>
+  </select></center>
   <br>
   <br>
   <br>
-  <center><input type="submit" value="Submit"></center>
-</form>
+  <center>One more step.</center>
+<br>
+<center><input type="button" onclick="alert('Message sent. A member of our team will respond shortly. Thank you.')" value="Send it"></center>
 <br>
 <br>
 <br>
